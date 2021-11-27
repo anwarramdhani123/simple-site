@@ -12,7 +12,7 @@
                 <h3 class="panel-title"><?php echo I18N('signup_free_hosting'); ?></h3>
             </div>
             <div class="panel-body">
-                <form class="form-horizontal" role="form" method=post action="//order.<?php echo $domain; ?>/register.php"><!--remote_reg.php-->
+                <form class="form-horizontal" role="form" method=post action="//ifastnet.com/register.php"><!--remote_reg.php-->
                     <input type="hidden" name="plan_name" value="free webhosting">
                     <div class="form-group">
                         <label for="inputUsername" class="col-sm-4 control-label"><?php echo I18N('username'); ?></label>
@@ -59,7 +59,7 @@
                     <div class="form-group">
                         <label for="inputID" class="col-sm-4 control-label"><?php echo I18N('security_code'); ?></label>
                         <div class="col-sm-5">
-                            <img width="90px" height="25px" src="/security_code.php?id=<?php echo $security_id; ?>">
+                            <img width="90px" height="25px" src="//ifastnet.com/image.php?id=<?php echo $security_id; ?>">
                             <input type="hidden" name="id" class="form-control" id="inputID" value="<?php echo $security_id; ?>">
                         </div>
                     </div>
